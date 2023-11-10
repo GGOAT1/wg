@@ -23,3 +23,584 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 217ms (Views: 51.0ms | ActiveRecord: 0.0ms | Allocations: 4827)
 
 
+Started GET "/" for ::1 at 2023-11-11 04:39:02 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 375)
+Completed 200 OK in 170ms (Views: 36.4ms | ActiveRecord: 0.0ms | Allocations: 4891)
+
+
+Started GET "/" for ::1 at 2023-11-11 04:39:28 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 12)
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 219)
+
+
+Started GET "/home/top" for ::1 at 2023-11-11 04:43:19 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 97)
+  Rendered layout layouts/application.html.erb (Duration: 554.6ms | Allocations: 89567)
+Completed 500 Internal Server Error in 574ms (ActiveRecord: 0.0ms | Allocations: 90553)
+
+
+  
+ActionView::Template::Error (Permission denied @ rb_file_s_rename - (C:/Users/Shinya/projectg/tmp/cache/assets/sprockets/v4.0.0/0v/0vR5wZOxmCVc4cyQ1X6QdDdTdCPj-pGb196HqdmsUV0.cache.28200.15668.633152, C:/Users/Shinya/projectg/tmp/cache/assets/sprockets/v4.0.0/0v/0vR5wZOxmCVc4cyQ1X6QdDdTdCPj-pGb196HqdmsUV0.cache)):
+  
+sprockets (4.2.1) lib/sprockets/path_utils.rb:362:in `rename'
+sprockets (4.2.1) lib/sprockets/path_utils.rb:362:in `atomic_write'
+sprockets (4.2.1) lib/sprockets/cache/file_store.rb:112:in `set'
+sprockets (4.2.1) lib/sprockets/cache.rb:227:in `set'
+sprockets (4.2.1) lib/sprockets/cache.rb:143:in `set'
+sprockets (4.2.1) lib/sprockets/loader.rb:265:in `store_asset'
+sprockets (4.2.1) lib/sprockets/loader.rb:228:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/bundle.rb:32:in `block in call'
+C:/Ruby32-x64/lib/ruby/3.2.0/set.rb:511:in `each_key'
+C:/Ruby32-x64/lib/ruby/3.2.0/set.rb:511:in `each'
+sprockets (4.2.1) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.1) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for ::1 at 2023-11-11 04:43:41 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 375)
+Completed 200 OK in 29ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 4828)
+
+
+Started GET "/home/top" for ::1 at 2023-11-11 04:43:50 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 92)
+  Rendered layout layouts/application.html.erb (Duration: 154.3ms | Allocations: 37907)
+Completed 200 OK in 163ms (Views: 159.7ms | ActiveRecord: 0.0ms | Allocations: 38842)
+
+
+Started GET "/test" for ::1 at 2023-11-11 04:45:22 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.8ms | Allocations: 183)
+  Rendered layout layouts/application.html.erb (Duration: 125.9ms | Allocations: 38956)
+Completed 200 OK in 157ms (Views: 136.5ms | ActiveRecord: 0.0ms | Allocations: 43583)
+
+
+Started GET "/" for ::1 at 2023-11-11 04:45:28 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 274)
+Completed 200 OK in 6ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 999)
+
+
+Started GET "/test" for ::1 at 2023-11-11 04:45:33 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2194)
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 2460)
+
+
+Started GET "/test" for ::1 at 2023-11-11 04:52:58 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.8ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 77.7ms | Allocations: 37199)
+Completed 200 OK in 114ms (Views: 88.3ms | ActiveRecord: 0.0ms | Allocations: 41826)
+
+
+Started GET "/test" for ::1 at 2023-11-11 04:53:00 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2225)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 2491)
+
+
+Started GET "/test" for ::1 at 2023-11-11 04:55:36 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.6ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 80.4ms | Allocations: 37326)
+Completed 200 OK in 112ms (Views: 91.6ms | ActiveRecord: 0.0ms | Allocations: 41955)
+
+
+Started GET "/test" for ::1 at 2023-11-11 04:55:38 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2210)
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 2476)
+
+
+Started GET "/test" for ::1 at 2023-11-11 04:55:41 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2217)
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 2482)
+
+
+Started GET "/users/index" for ::1 at 2023-11-11 04:58:40 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 186)
+  Rendered layout layouts/application.html.erb (Duration: 78.7ms | Allocations: 37362)
+Completed 200 OK in 113ms (Views: 89.4ms | ActiveRecord: 0.0ms | Allocations: 41991)
+
+
+Started GET "/test" for ::1 at 2023-11-11 04:59:27 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.6ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2346)
+Completed 200 OK in 14ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 2817)
+
+
+Started GET "/test" for ::1 at 2023-11-11 04:59:29 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2208)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 2473)
+
+
+Started GET "/test" for ::1 at 2023-11-11 04:59:36 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2208)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 2473)
+
+
+Started GET "/test" for ::1 at 2023-11-11 05:00:56 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 0.7ms | Allocations: 180)
+  Rendered layout layouts/application.html.erb (Duration: 78.0ms | Allocations: 37298)
+Completed 200 OK in 112ms (Views: 89.3ms | ActiveRecord: 0.0ms | Allocations: 41926)
+
+
+Started GET "/top" for ::1 at 2023-11-11 05:01:00 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.7ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2324)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 2650)
+
+
+Started GET "/test" for ::1 at 2023-11-11 05:01:01 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2188)
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 2453)
+
+
+Started GET "/test" for ::1 at 2023-11-11 05:01:03 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2194)
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 2459)
+
+
+Started GET "/users/idnex" for ::1 at 2023-11-11 05:04:41 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/idnex"):
+  
+Started GET "/users/index" for ::1 at 2023-11-11 05:04:45 +0900
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 69.2ms | Allocations: 35731)
+Completed 200 OK in 83ms (Views: 74.5ms | ActiveRecord: 0.0ms | Allocations: 37640)
+
+
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::InternalMetadata Create (3.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ('environment', 'development', '2023-11-10 20:11:00.202552', '2023-11-10 20:11:00.202556') RETURNING "key"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20231110200721)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "password" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20231110200721') RETURNING "version"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?) RETURNING "id"[0m  [["name", "admin"], ["password", "[FILTERED]"], ["created_at", "2023-11-10 20:14:53.434129"], ["updated_at", "2023-11-10 20:14:53.434129"]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/users" for ::1 at 2023-11-11 05:18:59 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 249)
+  Rendered layout layouts/application.html.erb (Duration: 78.7ms | Allocations: 37310)
+Completed 200 OK in 214ms (Views: 89.9ms | ActiveRecord: 0.4ms | Allocations: 60047)
+
+
+Started GET "/users/create" for ::1 at 2023-11-11 05:26:54 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/create"):
+  
+Started GET "/users/create" for ::1 at 2023-11-11 05:27:20 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/users/create"):
+  
+Started GET "/users/create" for ::1 at 2023-11-11 05:28:48 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/create"):
+  
+Started GET "/users/create" for ::1 at 2023-11-11 05:29:41 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/create"):
+  
+Started GET "/users/create" for ::1 at 2023-11-11 05:32:32 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/create"):
+  
+Started GET "/users" for ::1 at 2023-11-11 05:33:06 +0900
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 71.0ms | Allocations: 35784)
+Completed 200 OK in 129ms (Views: 76.8ms | ActiveRecord: 0.4ms | Allocations: 54079)
+
+
+Started GET "/users/create" for ::1 at 2023-11-11 05:34:43 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/users/create"):
+  
+Started GET "/users" for ::1 at 2023-11-11 05:35:25 +0900
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 14035)
+Completed 200 OK in 43ms (Views: 31.7ms | ActiveRecord: 3.0ms | Allocations: 19033)
+
+
+Started GET "/users" for ::1 at 2023-11-11 05:37:34 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 2082)
+  Rendered layout layouts/application.html.erb (Duration: 80.5ms | Allocations: 37549)
+Completed 200 OK in 157ms (Views: 91.6ms | ActiveRecord: 0.5ms | Allocations: 58624)
+
+
+Started POST "/users/create" for ::1 at 2023-11-11 05:38:26 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/users/create"):
+  
+Started GET "/users" for ::1 at 2023-11-11 05:38:27 +0900
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 276)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2314)
+Completed 200 OK in 10ms (Views: 6.5ms | ActiveRecord: 0.1ms | Allocations: 3041)
+
+
+Started GET "/users" for ::1 at 2023-11-11 05:46:01 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1656)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1777)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms | Allocations: 12578)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <% @users.each do |user| %>
+    2:     <p>name</p>
+    3:     <div class="ruby-name"><%= user.name %></div>
+    4: <% end %>
+  
+app/views/users/index.html.erb:1
+Started GET "/users" for ::1 at 2023-11-11 05:48:26 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 30.4ms | Allocations: 11495)
+  Rendered layout layouts/application.html.erb (Duration: 97.3ms | Allocations: 46957)
+Completed 200 OK in 153ms (Views: 107.3ms | ActiveRecord: 0.4ms | Allocations: 57799)
+
+
+Started GET "/users" for ::1 at 2023-11-11 05:54:09 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:8
+  Rendered users/index.html.erb within layouts/application (Duration: 29.8ms | Allocations: 11505)
+  Rendered layout layouts/application.html.erb (Duration: 97.1ms | Allocations: 46906)
+Completed 200 OK in 151ms (Views: 107.0ms | ActiveRecord: 0.4ms | Allocations: 57748)
+
+
+Started GET "/users" for ::1 at 2023-11-11 05:55:02 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:8
+  Rendered users/index.html.erb within layouts/application (Duration: 32.5ms | Allocations: 11511)
+  Rendered layout layouts/application.html.erb (Duration: 100.2ms | Allocations: 46955)
+Completed 200 OK in 152ms (Views: 110.2ms | ActiveRecord: 0.4ms | Allocations: 57797)
+
+
+Started GET "/users" for ::1 at 2023-11-11 05:55:11 +0900
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:2
+  Rendered users/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 3805)
+  Rendered layout layouts/application.html.erb (Duration: 32.0ms | Allocations: 17498)
+Completed 200 OK in 43ms (Views: 34.2ms | ActiveRecord: 3.4ms | Allocations: 19023)
+
+
+Started POST "/users/create" for ::1 at 2023-11-11 05:55:23 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/users/create"):
+  
+Started GET "/users" for ::1 at 2023-11-11 05:55:23 +0900
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:2
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 656)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2694)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.1ms | Allocations: 2974)
+
+
+Started GET "/create" for ::1 at 2023-11-11 05:57:36 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as HTML
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?) RETURNING "id"[0m  [["name", nil], ["password", "[FILTERED]"], ["created_at", "2023-11-10 20:57:36.337828"], ["updated_at", "2023-11-10 20:57:36.337828"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+Redirected to http://localhost:3000/users/index
+Completed 302 Found in 40ms (ActiveRecord: 3.5ms | Allocations: 17542)
+
+
+Started GET "/users/index" for ::1 at 2023-11-11 05:57:36 +0900
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:2
+  Rendered users/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 839)
+  Rendered layout layouts/application.html.erb (Duration: 87.2ms | Allocations: 37889)
+Completed 200 OK in 128ms (Views: 97.7ms | ActiveRecord: 0.1ms | Allocations: 42850)
+
+
+Started GET "/create" for ::1 at 2023-11-11 05:58:00 +0900
+Processing by UsersController#create as HTML
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?) RETURNING "id"[0m  [["name", nil], ["password", "[FILTERED]"], ["created_at", "2023-11-10 20:58:00.686591"], ["updated_at", "2023-11-10 20:58:00.686591"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+Redirected to http://localhost:3000/users/index
+Completed 302 Found in 7ms (ActiveRecord: 1.3ms | Allocations: 1565)
+
+
+Started GET "/users/index" for ::1 at 2023-11-11 05:58:00 +0900
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:2
+  Rendered users/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 391)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2598)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.1ms | Allocations: 2872)
+
+
+Started GET "/users/create" for ::1 at 2023-11-11 05:58:52 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/users/create"):
+  
+Started GET "/users/create" for ::1 at 2023-11-11 05:59:22 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as HTML
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?) RETURNING "id"[0m  [["name", nil], ["password", "[FILTERED]"], ["created_at", "2023-11-10 20:59:23.104035"], ["updated_at", "2023-11-10 20:59:23.104035"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+Redirected to http://localhost:3000/users/index
+Completed 302 Found in 39ms (ActiveRecord: 1.7ms | Allocations: 17631)
+
+
+Started GET "/users/index" for ::1 at 2023-11-11 05:59:23 +0900
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:2
+  Rendered users/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 858)
+  Rendered layout layouts/application.html.erb (Duration: 86.5ms | Allocations: 37953)
+Completed 200 OK in 123ms (Views: 97.1ms | ActiveRecord: 0.1ms | Allocations: 42914)
+
+
+Started GET "/users/index" for ::1 at 2023-11-11 05:59:54 +0900
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:2
+  Rendered users/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 3471)
+  Rendered layout layouts/application.html.erb (Duration: 30.2ms | Allocations: 17370)
+Completed 200 OK in 41ms (Views: 32.8ms | ActiveRecord: 2.7ms | Allocations: 18895)
+
+
+Started GET "/users/create" for ::1 at 2023-11-11 06:00:00 +0900
+Processing by UsersController#create as HTML
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?) RETURNING "id"[0m  [["name", nil], ["password", "[FILTERED]"], ["created_at", "2023-11-10 21:00:01.037344"], ["updated_at", "2023-11-10 21:00:01.037344"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering users/create.html.erb within layouts/application
+  Rendered users/create.html.erb within layouts/application (Duration: 1.3ms | Allocations: 463)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 2464)
+Completed 200 OK in 19ms (Views: 10.2ms | ActiveRecord: 2.9ms | Allocations: 4296)
+
+
+Started POST "/users/create" for ::1 at 2023-11-11 06:00:08 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/users/create"):
+  
+Started GET "/users/create" for ::1 at 2023-11-11 06:00:08 +0900
+Processing by UsersController#create as HTML
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?) RETURNING "id"[0m  [["name", nil], ["password", "[FILTERED]"], ["created_at", "2023-11-10 21:00:08.928202"], ["updated_at", "2023-11-10 21:00:08.928202"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering users/create.html.erb within layouts/application
+  Rendered users/create.html.erb within layouts/application (Duration: 0.6ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2330)
+Completed 200 OK in 12ms (Views: 6.8ms | ActiveRecord: 1.1ms | Allocations: 3987)
+
+
+Started GET "/users" for ::1 at 2023-11-11 06:00:37 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:2
+  Rendered users/index.html.erb within layouts/application (Duration: 21.3ms | Allocations: 9701)
+  Rendered layout layouts/application.html.erb (Duration: 98.5ms | Allocations: 46860)
+Completed 200 OK in 150ms (Views: 108.6ms | ActiveRecord: 0.3ms | Allocations: 57703)
+
+
