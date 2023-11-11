@@ -1,0 +1,12 @@
+.textbox {
+    border: solid 3px #000000;
+    margin: 0 auto;
+    width: 900px;
+    height: 160px;
+    top: 650px;
+    position: relative;
+}
+
+p {
+    text-align: center;
+}
