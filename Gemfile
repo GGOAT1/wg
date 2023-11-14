@@ -28,7 +28,9 @@ gem "jbuilder"
 
 gem 'react-rails'
 
-gem 'webpacker'
+gem 'webpacker',  '~> 5.0'
+
+gem 'jquery-rails'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
