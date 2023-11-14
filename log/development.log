@@ -1110,3 +1110,1343 @@ Processing by GamesController#InGame as HTML
 Completed 200 OK in 33ms (Views: 30.4ms | ActiveRecord: 0.0ms | Allocations: 5300)
 
 
+Started GET "/" for ::1 at 2023-11-12 20:15:41 +0900
+Started GET "/" for 127.0.0.1 at 2023-11-12 20:15:41 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendering C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.6ms | Allocations: 389)
+Completed 200 OK in 168ms (Views: 45.9ms | ActiveRecord: 0.0ms | Allocations: 4996)
+
+
+  Rendered C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.5ms | Allocations: 392)
+Completed 200 OK in 178ms (Views: 33.3ms | ActiveRecord: 0.0ms | Allocations: 5420)
+
+
+Started GET "/top" for 127.0.0.1 at 2023-11-12 20:16:00 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.6ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 1498.2ms | Allocations: 50087)
+Completed 200 OK in 1513ms (Views: 1509.1ms | ActiveRecord: 0.0ms | Allocations: 51036)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:21:41 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 98)
+  Rendered layout layouts/application.html.erb (Duration: 58.0ms | Allocations: 18236)
+Completed 200 OK in 71ms (Views: 63.7ms | ActiveRecord: 0.0ms | Allocations: 19155)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:21:57 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.6ms | Allocations: 98)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 15449)
+Completed 200 OK in 41ms (Views: 33.3ms | ActiveRecord: 0.0ms | Allocations: 16369)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:22:10 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 98)
+  Rendered layout layouts/application.html.erb (Duration: 30.2ms | Allocations: 15438)
+Completed 200 OK in 43ms (Views: 35.7ms | ActiveRecord: 0.0ms | Allocations: 16356)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:23:34 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 100)
+  Rendered layout layouts/application.html.erb (Duration: 52.9ms | Allocations: 18161)
+Completed 200 OK in 66ms (Views: 58.6ms | ActiveRecord: 0.0ms | Allocations: 19079)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:24:54 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 28.8ms | Allocations: 15436)
+Completed 200 OK in 43ms (Views: 34.5ms | ActiveRecord: 0.0ms | Allocations: 16354)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:26:13 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.8ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 53.0ms | Allocations: 18192)
+Completed 200 OK in 63ms (Views: 58.4ms | ActiveRecord: 0.0ms | Allocations: 19110)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:27:07 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.7ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 54.5ms | Allocations: 18198)
+Completed 200 OK in 64ms (Views: 59.9ms | ActiveRecord: 0.0ms | Allocations: 19116)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:27:47 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 30.2ms | Allocations: 5028)
+Completed 200 OK in 34ms (Views: 31.0ms | ActiveRecord: 0.0ms | Allocations: 5296)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:28:00 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 30.1ms | Allocations: 5034)
+Completed 200 OK in 33ms (Views: 30.9ms | ActiveRecord: 0.0ms | Allocations: 5302)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:28:07 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 30.3ms | Allocations: 5043)
+Completed 200 OK in 34ms (Views: 31.0ms | ActiveRecord: 0.0ms | Allocations: 5311)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:28:38 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 5041)
+Completed 200 OK in 34ms (Views: 31.2ms | ActiveRecord: 0.0ms | Allocations: 5309)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:29:29 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | Allocations: 5031)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 0.0ms | Allocations: 5299)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:29:33 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2314)
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 2582)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:30:21 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 28.8ms | Allocations: 5049)
+Completed 200 OK in 32ms (Views: 29.5ms | ActiveRecord: 0.0ms | Allocations: 5317)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:30:58 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 30.2ms | Allocations: 5038)
+Completed 200 OK in 34ms (Views: 31.0ms | ActiveRecord: 0.0ms | Allocations: 5306)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:33:45 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 29.7ms | Allocations: 5035)
+Completed 200 OK in 33ms (Views: 30.4ms | ActiveRecord: 0.0ms | Allocations: 5303)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:34:58 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 48.8ms | Allocations: 18169)
+Completed 200 OK in 62ms (Views: 54.2ms | ActiveRecord: 0.0ms | Allocations: 19087)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:36:23 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 52.6ms | Allocations: 18142)
+Completed 200 OK in 62ms (Views: 57.7ms | ActiveRecord: 0.0ms | Allocations: 19060)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:36:37 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 5075)
+Completed 200 OK in 38ms (Views: 35.4ms | ActiveRecord: 0.0ms | Allocations: 5343)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:36:40 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2312)
+Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 2580)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:36:55 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | Allocations: 5037)
+Completed 200 OK in 34ms (Views: 31.4ms | ActiveRecord: 0.0ms | Allocations: 5305)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:38:31 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.6ms | Allocations: 100)
+  Rendered layout layouts/application.html.erb (Duration: 54.8ms | Allocations: 18137)
+Completed 200 OK in 70ms (Views: 61.0ms | ActiveRecord: 0.0ms | Allocations: 19055)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:38:36 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2308)
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 2576)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:39:20 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 29.4ms | Allocations: 5055)
+Completed 200 OK in 33ms (Views: 30.2ms | ActiveRecord: 0.0ms | Allocations: 5323)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:39:28 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 28.0ms | Allocations: 5060)
+Completed 200 OK in 31ms (Views: 28.8ms | ActiveRecord: 0.0ms | Allocations: 5328)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:39:36 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 30.0ms | Allocations: 5040)
+Completed 200 OK in 33ms (Views: 30.8ms | ActiveRecord: 0.0ms | Allocations: 5308)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:40:04 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.6ms | Allocations: 100)
+  Rendered layout layouts/application.html.erb (Duration: 52.9ms | Allocations: 18164)
+Completed 200 OK in 66ms (Views: 58.6ms | ActiveRecord: 0.0ms | Allocations: 19082)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:42:47 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 29.6ms | Allocations: 5015)
+Completed 200 OK in 33ms (Views: 30.3ms | ActiveRecord: 0.0ms | Allocations: 5283)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:43:42 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2374)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 2642)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:45:21 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.7ms | Allocations: 104)
+  Rendered layout layouts/application.html.erb (Duration: 53.2ms | Allocations: 18164)
+Completed 200 OK in 66ms (Views: 58.4ms | ActiveRecord: 0.0ms | Allocations: 19082)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:45:53 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 29.4ms | Allocations: 5039)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.0ms | Allocations: 5307)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:46:08 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 29.5ms | Allocations: 5063)
+Completed 200 OK in 33ms (Views: 30.3ms | ActiveRecord: 0.0ms | Allocations: 5331)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:46:38 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 2373)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 2641)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:46:58 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | Allocations: 5034)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.0ms | Allocations: 5302)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:47:21 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 30.5ms | Allocations: 5044)
+Completed 200 OK in 34ms (Views: 31.3ms | ActiveRecord: 0.0ms | Allocations: 5312)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:47:32 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 29.9ms | Allocations: 5052)
+Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 0.0ms | Allocations: 5320)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:48:22 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 31.6ms | Allocations: 5029)
+Completed 200 OK in 35ms (Views: 32.3ms | ActiveRecord: 0.0ms | Allocations: 5297)
+
+
+Started GET "/" for ::1 at 2023-11-12 20:59:20 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | Allocations: 378)
+Completed 200 OK in 31ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 4851)
+
+
+Started GET "/top" for ::1 at 2023-11-12 20:59:26 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 369.5ms | Allocations: 50205)
+Completed 200 OK in 383ms (Views: 374.7ms | ActiveRecord: 0.0ms | Allocations: 51155)
+
+
+Started GET "/top" for ::1 at 2023-11-12 21:00:28 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2309)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 2581)
+
+
+Started GET "/top" for ::1 at 2023-11-12 21:04:16 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.8ms | Allocations: 208)
+  Rendered layout layouts/application.html.erb (Duration: 28.0ms | Allocations: 15549)
+Completed 200 OK in 43ms (Views: 33.6ms | ActiveRecord: 0.0ms | Allocations: 16468)
+
+
+Started GET "/top" for ::1 at 2023-11-12 21:04:30 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.6ms | Allocations: 177)
+  Rendered layout layouts/application.html.erb (Duration: 28.0ms | Allocations: 15494)
+Completed 200 OK in 43ms (Views: 33.2ms | ActiveRecord: 0.0ms | Allocations: 16414)
+
+
+Started GET "/top" for ::1 at 2023-11-12 21:06:38 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+warning package.json: No license field
+node:internal/crypto/hash:68
+  this[kHandle] = new _Hash(algorithm, xofLen);
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:68:19)
+    at Object.createHash (node:crypto:138:10)
+    at module.exports (C:\Users\Shinya\node_modules\webpack\lib\util\createHash.js:135:53)
+    at Compilation.createHash (C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1918:16)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1386:9
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (C:\Users\Shinya\node_modules\tapable\lib\Hook.js:154:20)
+    at Compilation.seal (C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1342:27)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compiler.js:675:18
+    at C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1261:4
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:15:1)
+    at AsyncSeriesHook.lazyCompileHook (C:\Users\Shinya\node_modules\tapable\lib\Hook.js:154:20)
+    at Compilation.finish (C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1253:28)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compiler.js:672:17
+    at _done (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+    at eval (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:32:22)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1185:12
+    at errorAndCallback (C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1044:6)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1075:14
+    at C:\Users\Shinya\node_modules\webpack\lib\NormalModuleFactory.js:401:22
+    at C:\Users\Shinya\node_modules\webpack\lib\NormalModuleFactory.js:130:21
+    at C:\Users\Shinya\node_modules\webpack\lib\NormalModuleFactory.js:337:24
+    at C:\Users\Shinya\node_modules\neo-async\async.js:2830:7
+    at C:\Users\Shinya\node_modules\neo-async\async.js:6877:13
+    at C:\Users\Shinya\node_modules\neo-async\async.js:2830:7
+    at done (C:\Users\Shinya\node_modules\neo-async\async.js:2925:13)
+    at C:\Users\Shinya\node_modules\webpack\lib\NormalModuleFactory.js:449:23
+    at C:\Users\Shinya\node_modules\enhanced-resolve\lib\Resolver.js:213:14
+    at C:\Users\Shinya\node_modules\enhanced-resolve\lib\Resolver.js:285:5
+    at eval (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:15:1) {
+  opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v20.9.0
+
+  Rendered home/top.html.erb within layouts/application (Duration: 2390.4ms | Allocations: 4650)
+  Rendered layout layouts/application.html.erb (Duration: 2391.1ms | Allocations: 4737)
+Completed 500 Internal Server Error in 2410ms (ActiveRecord: 0.0ms | Allocations: 5650)
+
+
+  
+ActionView::Template::Error (Webpacker can't find hello_typescript.js in C:/Users/Shinya/projectg/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+    1: <%= javascript_pack_tag 'hello_typescript' %>
+    2: <%= react_component("HelloWorld", { greeting: "Hello from react-rails." }) %>
+    3: <div class="logo">
+    4:     <h1>EC site</h1>
+  
+app/views/home/top.html.erb:1
+Started GET "/top" for ::1 at 2023-11-12 21:07:05 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.7ms | Allocations: 171)
+  Rendered layout layouts/application.html.erb (Duration: 30.3ms | Allocations: 15500)
+Completed 200 OK in 46ms (Views: 36.2ms | ActiveRecord: 0.0ms | Allocations: 16418)
+
+
+Started GET "/top" for ::1 at 2023-11-12 21:07:25 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+  Rendered layout layouts/application.html.erb (Duration: 32.8ms | Allocations: 5091)
+Completed 200 OK in 36ms (Views: 33.5ms | ActiveRecord: 0.0ms | Allocations: 5359)
+
+
+Started GET "/top" for ::1 at 2023-11-12 21:09:25 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.6ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 31.8ms | Allocations: 15475)
+Completed 200 OK in 46ms (Views: 37.4ms | ActiveRecord: 0.0ms | Allocations: 16392)
+
+
+Started GET "/test" for ::1 at 2023-11-12 21:09:30 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 0.7ms | Allocations: 142)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2443)
+Completed 200 OK in 15ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 2771)
+
+
+Started GET "/test" for ::1 at 2023-11-12 21:12:50 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+warning package.json: No license field
+node:internal/crypto/hash:68
+  this[kHandle] = new _Hash(algorithm, xofLen);
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:68:19)
+    at Object.createHash (node:crypto:138:10)
+    at module.exports (C:\Users\Shinya\node_modules\webpack\lib\util\createHash.js:135:53)
+    at Compilation.createHash (C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1918:16)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1386:9
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (C:\Users\Shinya\node_modules\tapable\lib\Hook.js:154:20)
+    at Compilation.seal (C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1342:27)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compiler.js:675:18
+    at C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1261:4
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:15:1)
+    at AsyncSeriesHook.lazyCompileHook (C:\Users\Shinya\node_modules\tapable\lib\Hook.js:154:20)
+    at Compilation.finish (C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1253:28)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compiler.js:672:17
+    at _done (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+    at eval (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:32:22)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1185:12
+    at errorAndCallback (C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1044:6)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1075:14
+    at C:\Users\Shinya\node_modules\webpack\lib\NormalModuleFactory.js:401:22
+    at C:\Users\Shinya\node_modules\webpack\lib\NormalModuleFactory.js:130:21
+    at C:\Users\Shinya\node_modules\webpack\lib\NormalModuleFactory.js:337:24
+    at C:\Users\Shinya\node_modules\neo-async\async.js:2830:7
+    at C:\Users\Shinya\node_modules\neo-async\async.js:6877:13
+    at C:\Users\Shinya\node_modules\neo-async\async.js:2830:7
+    at done (C:\Users\Shinya\node_modules\neo-async\async.js:2925:13)
+    at C:\Users\Shinya\node_modules\webpack\lib\NormalModuleFactory.js:449:23
+    at C:\Users\Shinya\node_modules\enhanced-resolve\lib\Resolver.js:213:14
+    at C:\Users\Shinya\node_modules\enhanced-resolve\lib\Resolver.js:285:5
+    at eval (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:15:1) {
+  opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v20.9.0
+
+  Rendered home/test.html.erb within layouts/application (Duration: 2033.2ms | Allocations: 4024)
+  Rendered layout layouts/application.html.erb (Duration: 2033.7ms | Allocations: 4111)
+Completed 500 Internal Server Error in 2047ms (ActiveRecord: 0.0ms | Allocations: 5008)
+
+
+  
+ActionView::Template::Error (Webpacker can't find hello_typescript.js in C:/Users/Shinya/projectg/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+    1: <%= javascript_pack_tag 'hello_typescript' %>
+  
+app/views/home/test.html.erb:1
+Started GET "/test" for ::1 at 2023-11-12 21:15:56 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+warning package.json: No license field
+node:internal/crypto/hash:68
+  this[kHandle] = new _Hash(algorithm, xofLen);
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:68:19)
+    at Object.createHash (node:crypto:138:10)
+    at module.exports (C:\Users\Shinya\node_modules\webpack\lib\util\createHash.js:135:53)
+    at Compilation.createHash (C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1918:16)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1386:9
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (C:\Users\Shinya\node_modules\tapable\lib\Hook.js:154:20)
+    at Compilation.seal (C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1342:27)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compiler.js:675:18
+    at C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1261:4
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:15:1)
+    at AsyncSeriesHook.lazyCompileHook (C:\Users\Shinya\node_modules\tapable\lib\Hook.js:154:20)
+    at Compilation.finish (C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1253:28)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compiler.js:672:17
+    at _done (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+    at eval (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:32:22)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1185:12
+    at errorAndCallback (C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1044:6)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1075:14
+    at C:\Users\Shinya\node_modules\webpack\lib\NormalModuleFactory.js:401:22
+    at C:\Users\Shinya\node_modules\webpack\lib\NormalModuleFactory.js:130:21
+    at C:\Users\Shinya\node_modules\webpack\lib\NormalModuleFactory.js:337:24
+    at C:\Users\Shinya\node_modules\neo-async\async.js:2830:7
+    at C:\Users\Shinya\node_modules\neo-async\async.js:6877:13
+    at C:\Users\Shinya\node_modules\neo-async\async.js:2830:7
+    at done (C:\Users\Shinya\node_modules\neo-async\async.js:2925:13)
+    at C:\Users\Shinya\node_modules\webpack\lib\NormalModuleFactory.js:449:23
+    at C:\Users\Shinya\node_modules\enhanced-resolve\lib\Resolver.js:213:14
+    at C:\Users\Shinya\node_modules\enhanced-resolve\lib\Resolver.js:285:5
+    at eval (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:15:1) {
+  opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v20.9.0
+
+  Rendered home/test.html.erb within layouts/application (Duration: 1974.0ms | Allocations: 4022)
+  Rendered layout layouts/application.html.erb (Duration: 1974.4ms | Allocations: 4109)
+Completed 500 Internal Server Error in 1984ms (ActiveRecord: 0.0ms | Allocations: 5005)
+
+
+  
+ActionView::Template::Error (Webpacker can't find hello_typescript.js in C:/Users/Shinya/projectg/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+    1: <%= javascript_pack_tag 'hello_typescript' %>
+  
+app/views/home/test.html.erb:1
+Started GET "/test" for ::1 at 2023-11-12 21:19:08 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+warning package.json: No license field
+node:internal/crypto/hash:68
+  this[kHandle] = new _Hash(algorithm, xofLen);
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:68:19)
+    at Object.createHash (node:crypto:138:10)
+    at module.exports (C:\Users\Shinya\node_modules\webpack\lib\util\createHash.js:135:53)
+    at Compilation.createHash (C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1918:16)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1386:9
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (C:\Users\Shinya\node_modules\tapable\lib\Hook.js:154:20)
+    at Compilation.seal (C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1342:27)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compiler.js:675:18
+    at C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1261:4
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:15:1)
+    at AsyncSeriesHook.lazyCompileHook (C:\Users\Shinya\node_modules\tapable\lib\Hook.js:154:20)
+    at Compilation.finish (C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1253:28)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compiler.js:672:17
+    at _done (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+    at eval (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:32:22)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1185:12
+    at errorAndCallback (C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1044:6)
+    at C:\Users\Shinya\node_modules\webpack\lib\Compilation.js:1075:14
+    at C:\Users\Shinya\node_modules\webpack\lib\NormalModuleFactory.js:401:22
+    at C:\Users\Shinya\node_modules\webpack\lib\NormalModuleFactory.js:130:21
+    at C:\Users\Shinya\node_modules\webpack\lib\NormalModuleFactory.js:337:24
+    at C:\Users\Shinya\node_modules\neo-async\async.js:2830:7
+    at C:\Users\Shinya\node_modules\neo-async\async.js:6877:13
+    at C:\Users\Shinya\node_modules\neo-async\async.js:2830:7
+    at done (C:\Users\Shinya\node_modules\neo-async\async.js:2925:13)
+    at C:\Users\Shinya\node_modules\webpack\lib\NormalModuleFactory.js:449:23
+    at C:\Users\Shinya\node_modules\enhanced-resolve\lib\Resolver.js:213:14
+    at C:\Users\Shinya\node_modules\enhanced-resolve\lib\Resolver.js:285:5
+    at eval (eval at create (C:\Users\Shinya\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:15:1) {
+  opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v20.9.0
+
+  Rendered home/test.html.erb within layouts/application (Duration: 2030.4ms | Allocations: 4883)
+  Rendered layout layouts/application.html.erb (Duration: 2030.9ms | Allocations: 5004)
+Completed 500 Internal Server Error in 2065ms (ActiveRecord: 0.0ms | Allocations: 9602)
+
+
+  
+ActionView::Template::Error (Webpacker can't find hello_typescript.js in C:/Users/Shinya/projectg/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+    1: <%= javascript_pack_tag 'hello_typescript' %>
+  
+app/views/home/test.html.erb:1
+Started GET "/test" for ::1 at 2023-11-12 21:32:34 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.19
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+warning ..\package.json: No license field
+warning ..\package.json: No license field
+error Command "webpack" not found.
+
+  Rendered home/test.html.erb within layouts/application (Duration: 1336.1ms | Allocations: 4855)
+  Rendered layout layouts/application.html.erb (Duration: 1336.7ms | Allocations: 4976)
+Completed 500 Internal Server Error in 1368ms (ActiveRecord: 0.0ms | Allocations: 9574)
+
+
+  
+ActionView::Template::Error (Webpacker can't find hello_typescript.js in C:/Users/Shinya/projectg/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+    1: <%= javascript_pack_tag 'hello_typescript' %>
+  
+app/views/home/test.html.erb:1
+Started GET "/top" for ::1 at 2023-11-12 21:32:39 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 95)
+  Rendered layout layouts/application.html.erb (Duration: 75.8ms | Allocations: 38487)
+Completed 200 OK in 81ms (Views: 76.8ms | ActiveRecord: 0.0ms | Allocations: 38867)
+
+
+Started GET "/test" for ::1 at 2023-11-12 21:32:44 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.19
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+warning ..\package.json: No license field
+warning ..\package.json: No license field
+error Command "webpack" not found.
+
+  Rendered home/test.html.erb within layouts/application (Duration: 1297.9ms | Allocations: 3956)
+  Rendered layout layouts/application.html.erb (Duration: 1298.4ms | Allocations: 4042)
+Completed 500 Internal Server Error in 1302ms (ActiveRecord: 0.0ms | Allocations: 4295)
+
+
+  
+ActionView::Template::Error (Webpacker can't find hello_typescript.js in C:/Users/Shinya/projectg/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+    1: <%= javascript_pack_tag 'hello_typescript' %>
+  
+app/views/home/test.html.erb:1
+Started GET "/top" for ::1 at 2023-11-12 21:59:35 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 211)
+  Rendered layout layouts/application.html.erb (Duration: 380.6ms | Allocations: 53079)
+Completed 200 OK in 417ms (Views: 391.1ms | ActiveRecord: 0.0ms | Allocations: 57727)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:00:41 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 117)
+  Rendered layout layouts/application.html.erb (Duration: 53.3ms | Allocations: 18208)
+Completed 200 OK in 66ms (Views: 58.6ms | ActiveRecord: 0.0ms | Allocations: 19127)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:01:05 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 32.4ms | Allocations: 5084)
+Completed 200 OK in 36ms (Views: 33.3ms | ActiveRecord: 0.0ms | Allocations: 5357)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:02:02 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 117)
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 15450)
+Completed 200 OK in 40ms (Views: 31.7ms | ActiveRecord: 0.0ms | Allocations: 16370)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:02:59 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 30.5ms | Allocations: 5073)
+Completed 200 OK in 34ms (Views: 31.2ms | ActiveRecord: 0.0ms | Allocations: 5345)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:04:15 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 31.3ms | Allocations: 5071)
+Completed 200 OK in 35ms (Views: 32.0ms | ActiveRecord: 0.0ms | Allocations: 5339)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:04:47 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 5086)
+Completed 200 OK in 38ms (Views: 35.3ms | ActiveRecord: 0.0ms | Allocations: 5354)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:05:12 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 33.0ms | Allocations: 5062)
+Completed 200 OK in 37ms (Views: 33.8ms | ActiveRecord: 0.0ms | Allocations: 5330)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:06:21 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 117)
+  Rendered layout layouts/application.html.erb (Duration: 51.9ms | Allocations: 18224)
+Completed 200 OK in 66ms (Views: 57.5ms | ActiveRecord: 0.0ms | Allocations: 19142)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:06:38 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 5108)
+Completed 200 OK in 32ms (Views: 29.7ms | ActiveRecord: 0.0ms | Allocations: 5376)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:06:41 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2308)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 2576)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:07:02 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 116)
+  Rendered layout layouts/application.html.erb (Duration: 49.5ms | Allocations: 18198)
+Completed 200 OK in 63ms (Views: 54.8ms | ActiveRecord: 0.0ms | Allocations: 19116)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:07:30 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 30.5ms | Allocations: 5045)
+Completed 200 OK in 34ms (Views: 31.2ms | ActiveRecord: 0.0ms | Allocations: 5313)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:07:36 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 31.7ms | Allocations: 5080)
+Completed 200 OK in 35ms (Views: 32.6ms | ActiveRecord: 0.0ms | Allocations: 5348)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:07:51 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 5076)
+Completed 200 OK in 35ms (Views: 32.2ms | ActiveRecord: 0.0ms | Allocations: 5344)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:07:58 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 34.5ms | Allocations: 5071)
+Completed 200 OK in 38ms (Views: 35.3ms | ActiveRecord: 0.0ms | Allocations: 5339)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:09:22 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.9ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 27.6ms | Allocations: 15438)
+Completed 200 OK in 41ms (Views: 33.1ms | ActiveRecord: 0.0ms | Allocations: 16356)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:10:58 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 106)
+  Rendered layout layouts/application.html.erb (Duration: 26.5ms | Allocations: 15423)
+Completed 200 OK in 40ms (Views: 32.7ms | ActiveRecord: 0.0ms | Allocations: 16341)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:11:40 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 107)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 15430)
+Completed 200 OK in 40ms (Views: 32.6ms | ActiveRecord: 0.0ms | Allocations: 16348)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:18:37 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.6ms | Allocations: 110)
+  Rendered layout layouts/application.html.erb (Duration: 28.1ms | Allocations: 15446)
+Completed 200 OK in 42ms (Views: 33.8ms | ActiveRecord: 0.0ms | Allocations: 16364)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:19:43 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 34.1ms | Allocations: 5712)
+Completed 200 OK in 37ms (Views: 34.9ms | ActiveRecord: 0.0ms | Allocations: 5980)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:25:41 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.6ms | Allocations: 105)
+  Rendered layout layouts/application.html.erb (Duration: 69.0ms | Allocations: 16924)
+Completed 200 OK in 79ms (Views: 74.2ms | ActiveRecord: 0.0ms | Allocations: 17845)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:27:15 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 47.5ms | Allocations: 16903)
+Completed 200 OK in 61ms (Views: 53.0ms | ActiveRecord: 0.0ms | Allocations: 17824)
+
+
+Started GET "/js/5-2-4.js" for ::1 at 2023-11-12 22:27:17 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/js/5-2-4.js"):
+  
+Started GET "/top" for ::1 at 2023-11-12 22:29:13 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.8ms | Allocations: 110)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 15534)
+Completed 200 OK in 41ms (Views: 32.8ms | ActiveRecord: 0.0ms | Allocations: 16456)
+
+
+Started GET "/js/5-2-4.js" for ::1 at 2023-11-12 22:29:15 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/js/5-2-4.js"):
+  
+Started GET "/top" for ::1 at 2023-11-12 22:36:49 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 0.6ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 53.6ms | Allocations: 16912)
+Completed 200 OK in 69ms (Views: 60.3ms | ActiveRecord: 0.0ms | Allocations: 17833)
+
+
+Started GET "/js/5-2-4.js" for ::1 at 2023-11-12 22:36:51 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/js/5-2-4.js"):
+  
+Started GET "/test" for ::1 at 2023-11-12 22:42:10 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1643)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1772)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms | Allocations: 6405)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= javascript_include_tag ""button.js"" %>
+
+<div class="openbtn"><span></span><span></span><span></span></div>
+):
+1:    <%= javascript_include_tag ""button.js"" %>
+2:    
+3:    <div class="openbtn"><span></span><span></span><span></span></div>
+  
+app/views/home/test.html.erb:1: syntax error, unexpected local variable or method, expecting ')'
+Started GET "/test" for ::1 at 2023-11-12 22:42:53 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 446.5ms | Allocations: 42218)
+  Rendered layout layouts/application.html.erb (Duration: 475.4ms | Allocations: 57396)
+Completed 200 OK in 491ms (Views: 481.1ms | ActiveRecord: 0.0ms | Allocations: 58356)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:44:25 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 7.6ms | Allocations: 2140)
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 17144)
+Completed 200 OK in 47ms (Views: 36.9ms | ActiveRecord: 0.0ms | Allocations: 18068)
+
+
+Started GET "/js/button.js" for ::1 at 2023-11-12 22:44:26 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/js/button.js"):
+  
+Started GET "/test" for ::1 at 2023-11-12 22:45:21 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 0.5ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 27.4ms | Allocations: 15524)
+Completed 200 OK in 45ms (Views: 33.3ms | ActiveRecord: 0.0ms | Allocations: 16446)
+
+
+Started GET "/test" for ::1 at 2023-11-12 22:45:52 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 0.5ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 28.8ms | Allocations: 15523)
+Completed 200 OK in 47ms (Views: 34.7ms | ActiveRecord: 0.0ms | Allocations: 16443)
+
+
+Started GET "/test" for ::1 at 2023-11-12 22:49:42 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 1295.3ms | Allocations: 114365)
+  Rendered layout layouts/application.html.erb (Duration: 1296.0ms | Allocations: 114485)
+Completed 500 Internal Server Error in 1391ms (ActiveRecord: 0.0ms | Allocations: 122926)
+
+
+  
+ActionView::Template::Error (Permission denied @ rb_file_s_rename - (C:/Users/Shinya/projectg/tmp/cache/assets/sprockets/v4.0.0/F8/F8CD0h9uOTjtbydMRwIGKDnwOCMcCcZd-HL2Tx_EAig.cache.23940.12136.583833, C:/Users/Shinya/projectg/tmp/cache/assets/sprockets/v4.0.0/F8/F8CD0h9uOTjtbydMRwIGKDnwOCMcCcZd-HL2Tx_EAig.cache)):
+  
+sprockets (4.2.1) lib/sprockets/path_utils.rb:362:in `rename'
+sprockets (4.2.1) lib/sprockets/path_utils.rb:362:in `atomic_write'
+sprockets (4.2.1) lib/sprockets/cache/file_store.rb:112:in `set'
+sprockets (4.2.1) lib/sprockets/cache.rb:227:in `set'
+sprockets (4.2.1) lib/sprockets/cache.rb:143:in `set'
+sprockets (4.2.1) lib/sprockets/loader.rb:268:in `store_asset'
+sprockets (4.2.1) lib/sprockets/loader.rb:228:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/context.rb:117:in `load'
+sprockets (4.2.1) lib/sprockets/context.rb:145:in `depend_on_asset'
+sprockets (4.2.1) lib/sprockets/context.rb:185:in `link_asset'
+sprockets-rails (3.4.2) lib/sprockets/rails/context.rb:27:in `compute_asset_path'
+actionview (7.1.2) lib/action_view/helpers/asset_url_helper.rb:204:in `asset_path'
+sprockets-rails (3.4.2) lib/sprockets/rails/sourcemapping_url_processor.rb:41:in `sourcemap_asset_path'
+sprockets-rails (3.4.2) lib/sprockets/rails/sourcemapping_url_processor.rb:34:in `resolved_sourcemap_comment'
+sprockets-rails (3.4.2) lib/sprockets/rails/sourcemapping_url_processor.rb:15:in `block in call'
+sprockets-rails (3.4.2) lib/sprockets/rails/sourcemapping_url_processor.rb:11:in `gsub'
+sprockets-rails (3.4.2) lib/sprockets/rails/sourcemapping_url_processor.rb:11:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.1) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/test" for ::1 at 2023-11-12 22:51:16 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 0.4ms | Allocations: 105)
+  Rendered layout layouts/application.html.erb (Duration: 74.5ms | Allocations: 44031)
+Completed 200 OK in 92ms (Views: 80.8ms | ActiveRecord: 0.0ms | Allocations: 44984)
+
+
+Started GET "/test" for ::1 at 2023-11-12 22:51:29 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 8.0ms | Allocations: 2210)
+  Rendered layout layouts/application.html.erb (Duration: 30.5ms | Allocations: 17897)
+Completed 200 OK in 41ms (Views: 36.2ms | ActiveRecord: 0.0ms | Allocations: 18813)
+
+
+Started GET "/test" for ::1 at 2023-11-12 22:51:42 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 7.2ms | Allocations: 2210)
+  Rendered layout layouts/application.html.erb (Duration: 28.3ms | Allocations: 17884)
+Completed 200 OK in 38ms (Views: 33.5ms | ActiveRecord: 0.0ms | Allocations: 18800)
+
+
+Started GET "/test" for ::1 at 2023-11-12 22:52:15 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 7.4ms | Allocations: 2207)
+  Rendered layout layouts/application.html.erb (Duration: 33.3ms | Allocations: 17897)
+Completed 200 OK in 49ms (Views: 39.0ms | ActiveRecord: 0.0ms | Allocations: 18813)
+
+
+Started GET "/top" for ::1 at 2023-11-12 22:53:12 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 11.1ms | Allocations: 3929)
+  Rendered layout layouts/application.html.erb (Duration: 32.9ms | Allocations: 19629)
+Completed 200 OK in 51ms (Views: 38.5ms | ActiveRecord: 0.0ms | Allocations: 20544)
+
+
+Started GET "/js/button.js" for ::1 at 2023-11-12 22:53:14 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/js/button.js"):
+  
+Started GET "/test" for ::1 at 2023-11-12 22:53:18 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 7.3ms | Allocations: 2149)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 4396)
+Completed 200 OK in 15ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 4721)
+
+
+Started GET "/test" for ::1 at 2023-11-12 22:55:17 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 27.9ms | Allocations: 3594)
+  Rendered layout layouts/application.html.erb (Duration: 50.3ms | Allocations: 19289)
+Completed 200 OK in 59ms (Views: 55.4ms | ActiveRecord: 0.0ms | Allocations: 20203)
+
+
+Started GET "/test" for ::1 at 2023-11-12 22:57:49 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 7.6ms | Allocations: 2210)
+  Rendered layout layouts/application.html.erb (Duration: 28.3ms | Allocations: 17881)
+Completed 200 OK in 44ms (Views: 34.0ms | ActiveRecord: 0.0ms | Allocations: 18795)
+
+
+Started GET "/test" for ::1 at 2023-11-12 22:58:44 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 7.7ms | Allocations: 2205)
+  Rendered layout layouts/application.html.erb (Duration: 29.4ms | Allocations: 17892)
+Completed 200 OK in 45ms (Views: 35.1ms | ActiveRecord: 0.0ms | Allocations: 18806)
+
+
+Started GET "/test" for ::1 at 2023-11-12 22:59:45 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 8.4ms | Allocations: 2209)
+  Rendered layout layouts/application.html.erb (Duration: 31.0ms | Allocations: 19369)
+Completed 200 OK in 51ms (Views: 46.2ms | ActiveRecord: 0.0ms | Allocations: 20283)
+
+
+Started GET "/test" for ::1 at 2023-11-12 23:00:01 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 0.5ms | Allocations: 103)
+  Rendered layout layouts/application.html.erb (Duration: 35.1ms | Allocations: 17895)
+Completed 200 OK in 49ms (Views: 41.1ms | ActiveRecord: 0.0ms | Allocations: 18809)
+
+
+Started GET "/test" for ::1 at 2023-11-12 23:04:58 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 0.6ms | Allocations: 197)
+  Rendered layout layouts/application.html.erb (Duration: 756.2ms | Allocations: 59382)
+Completed 200 OK in 918ms (Views: 801.6ms | ActiveRecord: 0.0ms | Allocations: 64033)
+
+
+Started GET "/test" for ::1 at 2023-11-12 23:05:48 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 0.5ms | Allocations: 197)
+  Rendered layout layouts/application.html.erb (Duration: 91.7ms | Allocations: 47452)
+Completed 200 OK in 123ms (Views: 102.6ms | ActiveRecord: 0.0ms | Allocations: 52103)
+
+
+Started GET "/test" for ::1 at 2023-11-12 23:07:58 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 0.5ms | Allocations: 197)
+  Rendered layout layouts/application.html.erb (Duration: 104.7ms | Allocations: 47335)
+Completed 200 OK in 137ms (Views: 115.8ms | ActiveRecord: 0.0ms | Allocations: 51993)
+
+
+Started GET "/test" for ::1 at 2023-11-12 23:10:21 +0900
+Processing by HomeController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/test.html.erb within layouts/application
+  Rendered home/test.html.erb within layouts/application (Duration: 0.6ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 77.3ms | Allocations: 18027)
+Completed 200 OK in 93ms (Views: 84.6ms | ActiveRecord: 0.0ms | Allocations: 18948)
+
+
+Started GET "/" for ::1 at 2023-11-14 15:23:12 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 379)
+Completed 200 OK in 210ms (Views: 47.8ms | ActiveRecord: 0.0ms | Allocations: 4856)
+
+
+Started GET "/top" for ::1 at 2023-11-14 15:23:18 +0900
+Processing by HomeController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (Duration: 332.3ms | Allocations: 31469)
+  Rendered layout layouts/application.html.erb (Duration: 477.7ms | Allocations: 50191)
+Completed 200 OK in 506ms (Views: 493.8ms | ActiveRecord: 0.0ms | Allocations: 51144)
+
+
+Started GET "/js/button.js" for ::1 at 2023-11-14 15:23:19 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/js/button.js"):
+  
+Started GET "/game" for ::1 at 2023-11-14 15:23:25 +0900
+  
+ActionController::RoutingError (uninitialized constant GamesController):
+  

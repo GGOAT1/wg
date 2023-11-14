@@ -1,2 +1,18 @@
-<h1>Hello World</h1>
-<a href ="create">test by href</a>
+<!DOCTYPE html>
+
+<%= javascript_include_tag "button.js" %>
+<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+<header class="header">
+    <p>EC site</p>
+</header>
+<main>
+    <div class="openbtn"><span></span><span></span><span></span></div>
+    <div class="sidemenu">
+        <p>side menu</p>
+    </div>
+    <div class="content">
+    </div>
+</main>
+<!--自作のJS-->
+<script src="js/button.js"></script>
